@@ -1,0 +1,396 @@
+2025-03-19 18:36:53,437 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 18:36:53,437 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 18:36:53,440 - INFO -  * Restarting with stat
+2025-03-19 18:36:55,570 - WARNING -  * Debugger is active!
+2025-03-19 18:36:55,573 - INFO -  * Debugger PIN: 134-500-141
+2025-03-19 18:37:28,119 - INFO - 127.0.0.1 - - [19/Mar/2025 18:37:28] "[31m[1mGET /predict-irrigation HTTP/1.1[0m" 405 -
+2025-03-19 18:38:33,194 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\IRRIGATION_TYPE\\flask_app\\routes.py', reloading
+2025-03-19 18:38:34,442 - INFO -  * Restarting with stat
+2025-03-19 18:38:39,914 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 18:38:39,914 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 18:38:39,916 - INFO -  * Restarting with stat
+2025-03-19 18:38:42,232 - WARNING -  * Debugger is active!
+2025-03-19 18:38:42,235 - INFO -  * Debugger PIN: 134-500-141
+2025-03-19 18:39:16,481 - INFO - 127.0.0.1 - - [19/Mar/2025 18:39:16] "GET / HTTP/1.1" 200 -
+2025-03-19 18:39:16,678 - INFO - 127.0.0.1 - - [19/Mar/2025 18:39:16] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 18:39:16,688 - INFO - 127.0.0.1 - - [19/Mar/2025 18:39:16] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 18:39:16,699 - INFO - 127.0.0.1 - - [19/Mar/2025 18:39:16] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 18:39:16,702 - INFO - 127.0.0.1 - - [19/Mar/2025 18:39:16] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 18:39:38,422 - INFO - POST /predict-irrigation - Data: {}, Prediction: Error: "None of [Index(['crop_type', 'soil_type'], dtype='object')] are in the [columns]"
+2025-03-19 18:39:38,424 - INFO - 127.0.0.1 - - [19/Mar/2025 18:39:38] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 20:50:53,979 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 20:50:53,980 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 20:50:53,983 - INFO -  * Restarting with stat
+2025-03-19 20:50:56,084 - WARNING -  * Debugger is active!
+2025-03-19 20:50:56,090 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 20:51:49,600 - INFO - 127.0.0.1 - - [19/Mar/2025 20:51:49] "GET / HTTP/1.1" 200 -
+2025-03-19 20:51:51,201 - INFO - 127.0.0.1 - - [19/Mar/2025 20:51:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-19 20:51:51,274 - INFO - 127.0.0.1 - - [19/Mar/2025 20:51:51] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 20:51:51,283 - INFO - 127.0.0.1 - - [19/Mar/2025 20:51:51] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 20:51:51,294 - INFO - 127.0.0.1 - - [19/Mar/2025 20:51:51] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 20:51:51,297 - INFO - 127.0.0.1 - - [19/Mar/2025 20:51:51] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 20:52:05,485 - INFO - POST /predict-irrigation - Data: {}
+2025-03-19 20:52:05,485 - INFO - POST /predict-irrigation - Prediction: Error: unhashable type: 'list'
+2025-03-19 20:52:05,486 - INFO - 127.0.0.1 - - [19/Mar/2025 20:52:05] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 20:54:54,595 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\irrigation_type\\flask_app\\ml_utils.py', reloading
+2025-03-19 21:01:59,754 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 21:01:59,754 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 21:01:59,756 - INFO -  * Restarting with stat
+2025-03-19 21:02:01,917 - WARNING -  * Debugger is active!
+2025-03-19 21:02:01,920 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 21:02:15,834 - INFO - 127.0.0.1 - - [19/Mar/2025 21:02:15] "GET / HTTP/1.1" 200 -
+2025-03-19 21:02:17,883 - INFO - 127.0.0.1 - - [19/Mar/2025 21:02:17] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:02:17,893 - INFO - 127.0.0.1 - - [19/Mar/2025 21:02:17] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:02:17,906 - INFO - 127.0.0.1 - - [19/Mar/2025 21:02:17] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:02:17,922 - INFO - 127.0.0.1 - - [19/Mar/2025 21:02:17] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:21:53,295 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 21:21:53,295 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 21:21:53,296 - INFO -  * Restarting with stat
+2025-03-19 21:21:54,313 - WARNING -  * Debugger is active!
+2025-03-19 21:21:54,315 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 21:22:57,439 - INFO - 127.0.0.1 - - [19/Mar/2025 21:22:57] "GET / HTTP/1.1" 200 -
+2025-03-19 21:22:57,506 - INFO - 127.0.0.1 - - [19/Mar/2025 21:22:57] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:22:57,510 - INFO - 127.0.0.1 - - [19/Mar/2025 21:22:57] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:22:57,514 - INFO - 127.0.0.1 - - [19/Mar/2025 21:22:57] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:22:57,516 - INFO - 127.0.0.1 - - [19/Mar/2025 21:22:57] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:22:57,522 - INFO - 127.0.0.1 - - [19/Mar/2025 21:22:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-19 21:23:13,336 - ERROR - POST /predict-irrigation - Error:
+Traceback (most recent call last):
+  File "C:\Users\VINIL\Desktop\irrigation_type\flask_app\routes.py", line 18, in predict
+    data = request.get_json()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VINIL\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VINIL\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VINIL\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+
+2025-03-19 21:23:13,337 - INFO - 127.0.0.1 - - [19/Mar/2025 21:23:13] "[35m[1mPOST /predict-irrigation HTTP/1.1[0m" 500 -
+2025-03-19 21:24:24,383 - INFO - 127.0.0.1 - - [19/Mar/2025 21:24:24] "GET / HTTP/1.1" 200 -
+2025-03-19 21:24:24,393 - INFO - 127.0.0.1 - - [19/Mar/2025 21:24:24] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:24:24,399 - INFO - 127.0.0.1 - - [19/Mar/2025 21:24:24] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:24:24,405 - INFO - 127.0.0.1 - - [19/Mar/2025 21:24:24] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:24:24,407 - INFO - 127.0.0.1 - - [19/Mar/2025 21:24:24] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:28:16,482 - INFO - 127.0.0.1 - - [19/Mar/2025 21:28:16] "GET / HTTP/1.1" 200 -
+2025-03-19 21:28:16,495 - INFO - 127.0.0.1 - - [19/Mar/2025 21:28:16] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:28:16,501 - INFO - 127.0.0.1 - - [19/Mar/2025 21:28:16] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:28:16,506 - INFO - 127.0.0.1 - - [19/Mar/2025 21:28:16] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:28:16,508 - INFO - 127.0.0.1 - - [19/Mar/2025 21:28:16] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 21:28:29,815 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'maize', 'water': 'high', 'rainfall': '200', 'soil_moisture': '5', 'soil': 'black', 'temperature': '30', 'evaporation': '4'}
+2025-03-19 21:28:29,839 - INFO - POST /predict-irrigation - Input DataFrame:
+  Crop Type Soil Type  Rainfall (mm)  Soil Moisture (%)  Temperature  Evaporation Rate (mm/day) Water Availability
+0     maize     black          200.0                5.0         30.0                        4.0               high
+2025-03-19 21:28:29,845 - INFO - POST /predict-irrigation - Prediction Result: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Water Availability
+
+2025-03-19 21:28:29,845 - INFO - 127.0.0.1 - - [19/Mar/2025 21:28:29] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 21:30:59,348 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\irrigation_type\\flask_app\\routes.py', reloading
+2025-03-19 21:30:59,490 - INFO -  * Restarting with stat
+2025-03-19 21:31:00,860 - WARNING -  * Debugger is active!
+2025-03-19 21:31:00,862 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 21:31:18,038 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'maize', 'water': 'high', 'rainfall': '200', 'soil_moisture': '2', 'soil': 'black', 'temperature': '22', 'evaporation': '5'}
+2025-03-19 21:31:18,053 - INFO - POST /predict-irrigation - Input DataFrame:
+    Crop Soil Type  Rainfall  Soil Moisture  Temperature  Evaporation Water Availability
+0  maize     black     200.0            2.0         22.0          5.0               high
+2025-03-19 21:31:18,053 - INFO - POST /predict-irrigation - Prediction Result: Error: "['Crop Type'] not in index"
+2025-03-19 21:31:18,054 - INFO - 127.0.0.1 - - [19/Mar/2025 21:31:18] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 21:32:05,109 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\irrigation_type\\flask_app\\routes.py', reloading
+2025-03-19 21:32:05,246 - INFO -  * Restarting with stat
+2025-03-19 21:32:06,588 - WARNING -  * Debugger is active!
+2025-03-19 21:32:06,590 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 21:32:17,295 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'Sugarcane', 'water': 'high', 'rainfall': '22', 'soil_moisture': '22', 'soil': 'red', 'temperature': '22', 'evaporation': '22'}
+2025-03-19 21:32:17,309 - INFO - POST /predict-irrigation - Input DataFrame:
+   Crop Type Soil Type  Rainfall  Soil Moisture  Temperature  Evaporation Water Availability
+0  Sugarcane       red      22.0           22.0         22.0         22.0               high
+2025-03-19 21:32:17,311 - INFO - POST /predict-irrigation - Prediction Result: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Water Availability
+
+2025-03-19 21:32:17,312 - INFO - 127.0.0.1 - - [19/Mar/2025 21:32:17] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 21:37:33,941 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\irrigation_type\\flask_app\\routes.py', reloading
+2025-03-19 21:37:34,073 - INFO -  * Restarting with stat
+2025-03-19 21:37:42,552 - WARNING -  * Debugger is active!
+2025-03-19 21:37:42,554 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 21:37:45,655 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'Cotton', 'water': 'high', 'rainfall': '222', 'soil_moisture': '22', 'soil': 'black', 'temperature': '22', 'evaporation': '22'}
+2025-03-19 21:37:45,669 - INFO - POST /predict-irrigation - Input DataFrame:
+     Crop Soil Type  Rainfall  Soil Moisture  Temperature  Evaporation Water Availability
+0  Cotton     black     222.0           22.0         22.0         22.0               high
+2025-03-19 21:37:45,669 - INFO - POST /predict-irrigation - Prediction Result: Error: "['Crop Type'] not in index"
+2025-03-19 21:37:45,670 - INFO - 127.0.0.1 - - [19/Mar/2025 21:37:45] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 21:38:00,635 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\irrigation_type\\flask_app\\routes.py', reloading
+2025-03-19 21:38:00,785 - INFO -  * Restarting with stat
+2025-03-19 21:38:01,914 - WARNING -  * Debugger is active!
+2025-03-19 21:38:01,916 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 21:38:09,887 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'Sugarcane', 'water': 'high', 'rainfall': '22', 'soil_moisture': '22', 'soil': 'black', 'temperature': '22', 'evaporation': '22'}
+2025-03-19 21:38:09,901 - INFO - POST /predict-irrigation - Input DataFrame:
+   Crop Type Soil Type  Rainfall  Soil Moisture  Temperature  Evaporation Water Availability
+0  Sugarcane     black      22.0           22.0         22.0         22.0               high
+2025-03-19 21:38:09,902 - INFO - POST /predict-irrigation - Prediction Result: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Water Availability
+
+2025-03-19 21:38:09,903 - INFO - 127.0.0.1 - - [19/Mar/2025 21:38:09] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 22:32:48,081 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 22:32:48,081 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 22:32:48,083 - INFO -  * Restarting with stat
+2025-03-19 22:32:50,253 - WARNING -  * Debugger is active!
+2025-03-19 22:32:50,257 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 22:33:29,240 - INFO - 127.0.0.1 - - [19/Mar/2025 22:33:29] "GET / HTTP/1.1" 200 -
+2025-03-19 22:33:29,375 - INFO - 127.0.0.1 - - [19/Mar/2025 22:33:29] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:33:29,390 - INFO - 127.0.0.1 - - [19/Mar/2025 22:33:29] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:33:29,403 - INFO - 127.0.0.1 - - [19/Mar/2025 22:33:29] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:33:29,409 - INFO - 127.0.0.1 - - [19/Mar/2025 22:33:29] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:33:40,864 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'maize', 'water': 'high', 'rainfall': '22', 'soil_moisture': '22', 'soil': 'black', 'temperature': '22', 'evaporation': '2'}
+2025-03-19 22:33:40,888 - INFO - POST /predict-irrigation - Input DataFrame:
+  Crop Type Soil Type  Rainfall  Soil Moisture  Temperature  Evaporation Water Availability
+0     maize     black      22.0           22.0         22.0          2.0               high
+2025-03-19 22:33:40,891 - INFO - POST /predict-irrigation - Prediction Result: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Water Availability
+
+2025-03-19 22:33:40,892 - INFO - 127.0.0.1 - - [19/Mar/2025 22:33:40] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 22:35:05,846 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'maize', 'water': 'medium', 'rainfall': '22', 'soil_moisture': '2', 'soil': 'black', 'temperature': '22', 'evaporation': '22'}
+2025-03-19 22:35:05,857 - INFO - POST /predict-irrigation - Input DataFrame:
+  Crop Type Soil Type  Rainfall  Soil Moisture  Temperature  Evaporation Water Availability
+0     maize     black      22.0            2.0         22.0         22.0             medium
+2025-03-19 22:35:05,858 - INFO - POST /predict-irrigation - Prediction Result: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Water Availability
+
+2025-03-19 22:35:05,859 - INFO - 127.0.0.1 - - [19/Mar/2025 22:35:05] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 22:39:39,827 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\irrigation_type\\flask_app\\routes.py', reloading
+2025-03-19 22:39:41,078 - INFO -  * Restarting with stat
+2025-03-19 22:39:48,377 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 22:39:48,378 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 22:39:48,380 - INFO -  * Restarting with stat
+2025-03-19 22:39:50,551 - WARNING -  * Debugger is active!
+2025-03-19 22:39:50,554 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 22:39:55,338 - INFO - 127.0.0.1 - - [19/Mar/2025 22:39:55] "GET / HTTP/1.1" 200 -
+2025-03-19 22:39:55,459 - INFO - 127.0.0.1 - - [19/Mar/2025 22:39:55] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:39:55,471 - INFO - 127.0.0.1 - - [19/Mar/2025 22:39:55] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:39:55,483 - INFO - 127.0.0.1 - - [19/Mar/2025 22:39:55] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:39:55,487 - INFO - 127.0.0.1 - - [19/Mar/2025 22:39:55] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:40:51,401 - INFO - 127.0.0.1 - - [19/Mar/2025 22:40:51] "GET / HTTP/1.1" 200 -
+2025-03-19 22:40:51,422 - INFO - 127.0.0.1 - - [19/Mar/2025 22:40:51] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:40:51,436 - INFO - 127.0.0.1 - - [19/Mar/2025 22:40:51] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:40:51,450 - INFO - 127.0.0.1 - - [19/Mar/2025 22:40:51] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:40:51,453 - INFO - 127.0.0.1 - - [19/Mar/2025 22:40:51] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:41:07,119 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'Maize', 'water': 'High', 'rainfall': '150', 'soil_moisture': '22', 'soil': 'Red', 'temperature': '30', 'evaporation': '2'}
+2025-03-19 22:41:07,135 - INFO - POST /predict-irrigation - Input DataFrame:
+  Crop Type Water Availability  Rainfall Soil Type  Soil Moisture  Temperature  Evaporation
+0     Maize               High     150.0       Red           22.0         30.0          2.0
+2025-03-19 22:41:07,138 - INFO - POST /predict-irrigation - Prediction Result: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Water Availability
+
+2025-03-19 22:41:07,138 - INFO - 127.0.0.1 - - [19/Mar/2025 22:41:07] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 22:42:26,571 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\irrigation_type\\flask_app\\routes.py', reloading
+2025-03-19 22:42:27,819 - INFO -  * Restarting with stat
+2025-03-19 22:42:30,189 - WARNING -  * Debugger is active!
+2025-03-19 22:42:30,192 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 22:42:39,367 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'Cotton', 'water': 'Medium', 'rainfall': '222', 'soil_moisture': '2', 'soil': 'Black', 'temperature': '22', 'evaporation': '2'}
+2025-03-19 22:42:39,384 - INFO - POST /predict-irrigation - Input DataFrame:
+  Crop Type Water Availability  Rainfall Soil Type  Soil Moisture  Temperature  Evaporation
+0    Cotton             Medium     222.0     Black            2.0         22.0          2.0
+2025-03-19 22:42:39,386 - INFO - POST /predict-irrigation - Prediction Result: Error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- Water Availability
+
+2025-03-19 22:42:39,387 - INFO - 127.0.0.1 - - [19/Mar/2025 22:42:39] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 22:49:18,948 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\irrigation_type\\flask_app\\ml_utils.py', reloading
+2025-03-19 22:49:20,146 - INFO -  * Restarting with stat
+2025-03-19 22:49:22,379 - WARNING -  * Debugger is active!
+2025-03-19 22:49:22,383 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 22:56:55,106 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\irrigation_type\\flask_app\\ml_utils.py', reloading
+2025-03-19 22:56:56,311 - INFO -  * Restarting with stat
+2025-03-19 22:59:15,190 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 22:59:15,190 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 22:59:15,192 - INFO -  * Restarting with stat
+2025-03-19 22:59:17,275 - WARNING -  * Debugger is active!
+2025-03-19 22:59:17,278 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 22:59:25,452 - INFO - 127.0.0.1 - - [19/Mar/2025 22:59:25] "GET / HTTP/1.1" 200 -
+2025-03-19 22:59:25,585 - INFO - 127.0.0.1 - - [19/Mar/2025 22:59:25] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:59:25,600 - INFO - 127.0.0.1 - - [19/Mar/2025 22:59:25] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:59:25,611 - INFO - 127.0.0.1 - - [19/Mar/2025 22:59:25] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:59:25,615 - INFO - 127.0.0.1 - - [19/Mar/2025 22:59:25] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 22:59:25,631 - INFO - 127.0.0.1 - - [19/Mar/2025 22:59:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-19 22:59:34,765 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'Maize', 'water': 'High', 'rainfall': '222', 'soil_moisture': '2', 'soil': 'Red', 'temperature': '22', 'evaporation': '2'}
+2025-03-19 22:59:34,781 - INFO - POST /predict-irrigation - Input DataFrame:
+  Crop Type Water Availability  Rainfall Soil Type  Soil Moisture  Temperature  Evaporation
+0     Maize               High     222.0       Red            2.0         22.0          2.0
+2025-03-19 22:59:34,791 - INFO - Received input for prediction:
+  Crop Type Water Availability  Rainfall Soil Type  Soil Moisture  Temperature  Evaporation
+0     Maize               High     222.0       Red            2.0         22.0          2.0
+2025-03-19 22:59:34,825 - INFO - One-hot encoded categorical features:
+   Crop Type_Barley  Crop Type_Cotton  Crop Type_Ground Nuts  Crop Type_Maize  ...  Soil Type_Loamy  Soil Type_Red  Soil Type_Saline  Soil Type_Sandy
+0               0.0               0.0                    0.0              1.0  ...              0.0            1.0               0.0              0.0
+
+[1 rows x 20 columns]
+2025-03-19 22:59:34,826 - ERROR - Prediction error: "None of [Index(['Rainfall (mm)', 'Soil Moisture (%)', 'Temperature ',\n       'Evaporation Rate (mm/day)'],\n      dtype='object')] are in the [columns]"
+2025-03-19 22:59:34,826 - INFO - POST /predict-irrigation - Prediction Result: Prediction error: "None of [Index(['Rainfall (mm)', 'Soil Moisture (%)', 'Temperature ',\n       'Evaporation Rate (mm/day)'],\n      dtype='object')] are in the [columns]"
+2025-03-19 22:59:34,827 - INFO - 127.0.0.1 - - [19/Mar/2025 22:59:34] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 23:16:56,615 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\irrigation_type\\flask_app\\routes.py', reloading
+2025-03-19 23:16:57,833 - INFO -  * Restarting with stat
+2025-03-19 23:17:00,008 - WARNING -  * Debugger is active!
+2025-03-19 23:17:00,011 - INFO -  * Debugger PIN: 759-637-811
+2025-03-19 23:17:23,845 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'Maize', 'water': 'Medium', 'rainfall': '22', 'soil_moisture': '2', 'soil': 'Black', 'temperature': '22', 'evaporation': '2'}
+2025-03-19 23:17:23,860 - INFO - POST /predict-irrigation - Input DataFrame:
+  Crop Type Water Availability  Rainfall (mm) Soil Type  Soil Moisture (%)  Temperature   Evaporation Rate (mm/day)
+0     Maize             Medium           22.0     Black                2.0          22.0                        2.0
+2025-03-19 23:17:23,869 - INFO - Received input for prediction:
+  Crop Type Water Availability  Rainfall (mm) Soil Type  Soil Moisture (%)  Temperature   Evaporation Rate (mm/day)
+0     Maize             Medium           22.0     Black                2.0          22.0                        2.0
+2025-03-19 23:17:23,896 - INFO - One-hot encoded categorical features:
+   Crop Type_Barley  Crop Type_Cotton  Crop Type_Ground Nuts  Crop Type_Maize  ...  Soil Type_Loamy  Soil Type_Red  Soil Type_Saline  Soil Type_Sandy
+0               0.0               0.0                    0.0              1.0  ...              0.0            0.0               0.0              0.0
+
+[1 rows x 20 columns]
+2025-03-19 23:17:23,928 - INFO - Combined features before scaling:
+   Crop Type_Barley  Crop Type_Cotton  Crop Type_Ground Nuts  ...  Soil Moisture (%)  Temperature   Evaporation Rate (mm/day)
+0               0.0               0.0                    0.0  ...                2.0          22.0                        2.0
+
+[1 rows x 24 columns]
+2025-03-19 23:17:23,955 - INFO - Final input for prediction after scaling:
+   Crop Type_Barley  Crop Type_Cotton  Crop Type_Ground Nuts  ...  Soil Moisture (%)  Temperature   Evaporation Rate (mm/day)
+0               0.0               0.0                    0.0  ...          -0.206556      0.280734                  -0.000629
+
+[1 rows x 24 columns]
+2025-03-19 23:17:23,970 - INFO - Encoded prediction result: [3]
+2025-03-19 23:17:23,971 - INFO - Decoded prediction label: ['Furrow Irrigation']
+2025-03-19 23:17:23,971 - INFO - POST /predict-irrigation - Prediction Result: Furrow Irrigation
+2025-03-19 23:17:23,973 - INFO - 127.0.0.1 - - [19/Mar/2025 23:17:23] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-19 23:17:45,989 - INFO - POST /predict-irrigation - Raw JSON Data: {'crop': 'Paddy', 'water': 'High', 'rainfall': '22', 'soil_moisture': '5', 'soil': 'Red', 'temperature': '33', 'evaporation': '2'}
+2025-03-19 23:17:45,999 - INFO - POST /predict-irrigation - Input DataFrame:
+  Crop Type Water Availability  Rainfall (mm) Soil Type  Soil Moisture (%)  Temperature   Evaporation Rate (mm/day)
+0     Paddy               High           22.0       Red                5.0          33.0                        2.0
+2025-03-19 23:17:46,012 - INFO - Received input for prediction:
+  Crop Type Water Availability  Rainfall (mm) Soil Type  Soil Moisture (%)  Temperature   Evaporation Rate (mm/day)
+0     Paddy               High           22.0       Red                5.0          33.0                        2.0
+2025-03-19 23:17:46,041 - INFO - One-hot encoded categorical features:
+   Crop Type_Barley  Crop Type_Cotton  Crop Type_Ground Nuts  Crop Type_Maize  ...  Soil Type_Loamy  Soil Type_Red  Soil Type_Saline  Soil Type_Sandy
+0               0.0               0.0                    0.0              0.0  ...              0.0            1.0               0.0              0.0
+
+[1 rows x 20 columns]
+2025-03-19 23:17:46,065 - INFO - Combined features before scaling:
+   Crop Type_Barley  Crop Type_Cotton  Crop Type_Ground Nuts  ...  Soil Moisture (%)  Temperature   Evaporation Rate (mm/day)
+0               0.0               0.0                    0.0  ...                5.0          33.0                        2.0
+
+[1 rows x 24 columns]
+2025-03-19 23:17:46,091 - INFO - Final input for prediction after scaling:
+   Crop Type_Barley  Crop Type_Cotton  Crop Type_Ground Nuts  ...  Soil Moisture (%)  Temperature   Evaporation Rate (mm/day)
+0               0.0               0.0                    0.0  ...          -0.130996       0.72218                  -0.000629
+
+[1 rows x 24 columns]
+2025-03-19 23:17:46,105 - INFO - Encoded prediction result: [0]
+2025-03-19 23:17:46,106 - INFO - Decoded prediction label: ['Basin Irrigation']
+2025-03-19 23:17:46,106 - INFO - POST /predict-irrigation - Prediction Result: Basin Irrigation
+2025-03-19 23:17:46,107 - INFO - 127.0.0.1 - - [19/Mar/2025 23:17:46] "POST /predict-irrigation HTTP/1.1" 200 -
+2025-03-20 18:52:14,723 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 18:52:14,724 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 18:52:14,726 - INFO -  * Restarting with stat
+2025-03-20 18:52:16,795 - WARNING -  * Debugger is active!
+2025-03-20 18:52:16,799 - INFO -  * Debugger PIN: 865-574-314
+2025-03-20 18:52:36,413 - INFO - 127.0.0.1 - - [20/Mar/2025 18:52:36] "GET / HTTP/1.1" 200 -
+2025-03-20 18:52:36,555 - INFO - 127.0.0.1 - - [20/Mar/2025 18:52:36] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 18:52:36,568 - INFO - 127.0.0.1 - - [20/Mar/2025 18:52:36] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 18:52:36,582 - INFO - 127.0.0.1 - - [20/Mar/2025 18:52:36] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 18:52:36,587 - INFO - 127.0.0.1 - - [20/Mar/2025 18:52:36] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 18:52:36,602 - INFO - 127.0.0.1 - - [20/Mar/2025 18:52:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 20:31:23,227 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 20:31:23,228 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 20:31:23,230 - INFO -  * Restarting with stat
+2025-03-20 20:31:25,592 - WARNING -  * Debugger is active!
+2025-03-20 20:31:25,595 - INFO -  * Debugger PIN: 865-574-314
+2025-03-20 20:31:36,180 - INFO - 127.0.0.1 - - [20/Mar/2025 20:31:36] "GET / HTTP/1.1" 200 -
+2025-03-20 20:31:36,271 - INFO - 127.0.0.1 - - [20/Mar/2025 20:31:36] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:31:36,281 - INFO - 127.0.0.1 - - [20/Mar/2025 20:31:36] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:31:36,290 - INFO - 127.0.0.1 - - [20/Mar/2025 20:31:36] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:31:36,292 - INFO - 127.0.0.1 - - [20/Mar/2025 20:31:36] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:31:36,306 - INFO - 127.0.0.1 - - [20/Mar/2025 20:31:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 20:33:12,984 - INFO - 127.0.0.1 - - [20/Mar/2025 20:33:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 20:33:19,708 - INFO - 127.0.0.1 - - [20/Mar/2025 20:33:19] "GET / HTTP/1.1" 200 -
+2025-03-20 20:33:19,731 - INFO - 127.0.0.1 - - [20/Mar/2025 20:33:19] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:33:19,747 - INFO - 127.0.0.1 - - [20/Mar/2025 20:33:19] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:33:19,760 - INFO - 127.0.0.1 - - [20/Mar/2025 20:33:19] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:33:19,764 - INFO - 127.0.0.1 - - [20/Mar/2025 20:33:19] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:34:02,994 - INFO - 127.0.0.1 - - [20/Mar/2025 20:34:02] "GET / HTTP/1.1" 200 -
+2025-03-20 20:34:03,015 - INFO - 127.0.0.1 - - [20/Mar/2025 20:34:03] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:34:03,027 - INFO - 127.0.0.1 - - [20/Mar/2025 20:34:03] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:34:03,040 - INFO - 127.0.0.1 - - [20/Mar/2025 20:34:03] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:34:03,045 - INFO - 127.0.0.1 - - [20/Mar/2025 20:34:03] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:34:26,439 - INFO - POST /predict-market-price - Raw JSON Data: {'crop': 'Paddy', 'region': 'Andhra Pradesh', 'rainfall': '22', 'temperature': '29', 'production': '2', 'msp': '23000', 'Export_Demand_Tonnes': '2', 'Prev_Year_Price': '26000'}
+2025-03-20 20:34:26,482 - INFO - POST /predict-market-price - Input DataFrame:
+    Crop          Region  Rainfall_mm  Avg_Temperature_C  Production_Tonnes      MSP  Export_Demand_Tonnes  Prev_Year_Price
+0  Paddy  Andhra Pradesh         22.0               29.0                2.0  23000.0                   2.0          26000.0
+2025-03-20 20:34:26,493 - INFO - Received input for prediction:
+    Crop          Region  Rainfall_mm  Avg_Temperature_C  Production_Tonnes      MSP  Export_Demand_Tonnes  Prev_Year_Price
+0  Paddy  Andhra Pradesh         22.0               29.0                2.0  23000.0                   2.0          26000.0
+2025-03-20 20:34:26,507 - ERROR - Prediction error: Shape of passed values is (1, 1), indices imply (1, 37)
+2025-03-20 20:34:26,508 - INFO - POST /predict-market-price - Prediction Result: Prediction error: Shape of passed values is (1, 1), indices imply (1, 37)
+2025-03-20 20:34:26,509 - INFO - 127.0.0.1 - - [20/Mar/2025 20:34:26] "POST /predict-market-price HTTP/1.1" 200 -
+2025-03-20 20:37:19,058 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\Market_price_ML\\flask_app\\ml_utils.py', reloading
+2025-03-20 20:37:19,303 - INFO -  * Restarting with stat
+2025-03-20 20:37:21,648 - WARNING -  * Debugger is active!
+2025-03-20 20:37:21,651 - INFO -  * Debugger PIN: 865-574-314
+2025-03-20 20:37:41,009 - INFO - POST /predict-market-price - Raw JSON Data: {'crop': 'Sugarcane', 'region': 'Kerala', 'rainfall': '22', 'temperature': '28', 'production': '2', 'msp': '22000', 'Export_Demand_Tonnes': '2', 'Prev_Year_Price': '23000'}
+2025-03-20 20:37:41,020 - INFO - POST /predict-market-price - Input DataFrame:
+        Crop  Region  Rainfall_mm  Avg_Temperature_C  Production_Tonnes      MSP  Export_Demand_Tonnes  Prev_Year_Price
+0  Sugarcane  Kerala         22.0               28.0                2.0  22000.0                   2.0          23000.0
+2025-03-20 20:37:41,027 - INFO - Received input for prediction:
+        Crop  Region  Rainfall_mm  Avg_Temperature_C  Production_Tonnes      MSP  Export_Demand_Tonnes  Prev_Year_Price
+0  Sugarcane  Kerala         22.0               28.0                2.0  22000.0                   2.0          23000.0
+2025-03-20 20:37:41,029 - ERROR - Prediction error: Shape of passed values is (1, 1), indices imply (1, 37)
+2025-03-20 20:37:41,030 - INFO - POST /predict-market-price - Prediction Result: Prediction error: Shape of passed values is (1, 1), indices imply (1, 37)
+2025-03-20 20:37:41,030 - INFO - 127.0.0.1 - - [20/Mar/2025 20:37:41] "POST /predict-market-price HTTP/1.1" 200 -
+2025-03-20 20:38:18,153 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\Market_price_ML\\flask_app\\ml_utils.py', reloading
+2025-03-20 20:38:18,459 - INFO -  * Restarting with stat
+2025-03-20 20:38:24,201 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 20:38:24,201 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 20:38:24,203 - INFO -  * Restarting with stat
+2025-03-20 20:38:26,336 - WARNING -  * Debugger is active!
+2025-03-20 20:38:26,339 - INFO -  * Debugger PIN: 865-574-314
+2025-03-20 20:38:33,637 - INFO - 127.0.0.1 - - [20/Mar/2025 20:38:33] "GET / HTTP/1.1" 200 -
+2025-03-20 20:38:33,772 - INFO - 127.0.0.1 - - [20/Mar/2025 20:38:33] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:38:33,783 - INFO - 127.0.0.1 - - [20/Mar/2025 20:38:33] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:38:33,796 - INFO - 127.0.0.1 - - [20/Mar/2025 20:38:33] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:38:33,801 - INFO - 127.0.0.1 - - [20/Mar/2025 20:38:33] "[35m[1mGET /static/irrigation.mp4 HTTP/1.1[0m" 206 -
+2025-03-20 20:38:46,105 - INFO - POST /predict-market-price - Raw JSON Data: {'crop': 'Maize', 'region': 'Maharashtra', 'rainfall': '22', 'temperature': '22', 'production': '2', 'msp': '22222', 'Export_Demand_Tonnes': '22', 'Prev_Year_Price': '22222'}
+2025-03-20 20:38:46,120 - INFO - POST /predict-market-price - Input DataFrame:
+    Crop       Region  Rainfall_mm  Avg_Temperature_C  Production_Tonnes      MSP  Export_Demand_Tonnes  Prev_Year_Price
+0  Maize  Maharashtra         22.0               22.0                2.0  22222.0                  22.0          22222.0
+2025-03-20 20:38:46,130 - INFO - Received input for prediction:
+    Crop       Region  Rainfall_mm  Avg_Temperature_C  Production_Tonnes      MSP  Export_Demand_Tonnes  Prev_Year_Price
+0  Maize  Maharashtra         22.0               22.0                2.0  22222.0                  22.0          22222.0
+2025-03-20 20:38:46,180 - INFO - One-hot encoded categorical features:
+   Crop_Cotton  Crop_Ground Nuts  Crop_Maize  Crop_Millets  ...  Region_Tripura  Region_Uttar Pradesh  Region_Uttarakhand  Region_West Bengal
+0          0.0               0.0         1.0           0.0  ...             0.0                   0.0                 0.0                 0.0
+
+[1 rows x 37 columns]
+2025-03-20 20:38:46,193 - INFO - Scaled numerical features:
+   Rainfall_mm  Avg_Temperature_C  Production_Tonnes        MSP  Export_Demand_Tonnes  Prev_Year_Price
+0      -3.3304          -1.284534          -2.157041  28.228703             -1.854616        26.932555
+2025-03-20 20:38:46,232 - INFO - Final input for prediction (combined):
+   Rainfall_mm  Avg_Temperature_C  Production_Tonnes        MSP  ...  Region_Tripura  Region_Uttar Pradesh  Region_Uttarakhand  Region_West Bengal
+0      -3.3304          -1.284534          -2.157041  28.228703  ...             0.0                   0.0                 0.0                 0.0
+
+[1 rows x 43 columns]
+2025-03-20 20:38:46,246 - INFO - Prediction result: 4194.51
+2025-03-20 20:38:46,246 - INFO - POST /predict-market-price - Prediction Result: 4194.51
+2025-03-20 20:38:46,247 - INFO - 127.0.0.1 - - [20/Mar/2025 20:38:46] "POST /predict-market-price HTTP/1.1" 200 -
+2025-03-24 22:41:36,479 - INFO - Serving on http://0.0.0.0:5000

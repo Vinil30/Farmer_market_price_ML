@@ -1,0 +1,51 @@
+2025-03-19 17:46:42,971 - ERROR - Exception:          ^^^^^^^^^^^^^^^^^^^^, Location: FileNotFoundError: [Errno 2] No such file or directory: 'saved_model.pkl'
+2025-03-19 17:50:26,101 - ERROR - Exception:          ^^^^^^^^^^^^^^^^^^^^, Location: FileNotFoundError: [Errno 2] No such file or directory: 'xgboost_irrigation_model.pkl'
+2025-03-19 17:53:28,791 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 17:53:28,792 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 17:53:28,796 - INFO -  * Restarting with stat
+2025-03-19 17:53:31,555 - WARNING -  * Debugger is active!
+2025-03-19 17:53:31,557 - INFO -  * Debugger PIN: 134-500-141
+2025-03-19 17:54:06,408 - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:06] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-19 17:54:06,471 - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-19 17:54:14,648 - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:14] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-19 17:54:14,701 - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-19 17:54:55,385 - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:55] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-19 17:54:57,342 - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:57] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-19 17:55:46,405 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\IRRIGATION_TYPE\\flask_app\\routes.py', reloading
+2025-03-19 17:55:47,623 - INFO -  * Restarting with stat
+2025-03-19 17:56:22,320 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 17:56:22,320 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 17:56:22,322 - INFO -  * Restarting with stat
+2025-03-19 17:56:24,431 - WARNING -  * Debugger is active!
+2025-03-19 17:56:24,434 - INFO -  * Debugger PIN: 134-500-141
+2025-03-19 17:56:34,089 - INFO - 127.0.0.1 - - [19/Mar/2025 17:56:34] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-19 17:56:44,767 - INFO - 127.0.0.1 - - [19/Mar/2025 17:56:44] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-19 17:56:54,315 - INFO - 127.0.0.1 - - [19/Mar/2025 17:56:54] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-19 17:58:58,417 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\IRRIGATION_TYPE\\flask_app\\app.py', reloading
+2025-03-19 17:58:59,719 - INFO -  * Restarting with stat
+2025-03-19 17:59:11,141 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 17:59:11,142 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 17:59:11,144 - INFO -  * Restarting with stat
+2025-03-19 17:59:13,264 - WARNING -  * Debugger is active!
+2025-03-19 17:59:13,272 - INFO -  * Debugger PIN: 134-500-141
+2025-03-19 17:59:30,345 - INFO - 127.0.0.1 - - [19/Mar/2025 17:59:30] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-19 17:59:32,246 - INFO - 127.0.0.1 - - [19/Mar/2025 17:59:32] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-19 17:59:32,426 - INFO - 127.0.0.1 - - [19/Mar/2025 17:59:32] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-19 17:59:32,602 - INFO - 127.0.0.1 - - [19/Mar/2025 17:59:32] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-19 17:59:32,778 - INFO - 127.0.0.1 - - [19/Mar/2025 17:59:32] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-03-19 17:59:37,302 - INFO - 127.0.0.1 - - [19/Mar/2025 17:59:37] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-19 18:00:50,905 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\IRRIGATION_TYPE\\flask_app\\routes.py', reloading
+2025-03-19 18:00:52,115 - INFO -  * Restarting with stat
+2025-03-19 18:00:57,693 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 18:00:57,694 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 18:00:57,696 - INFO -  * Restarting with stat
+2025-03-19 18:00:59,789 - WARNING -  * Debugger is active!
+2025-03-19 18:00:59,791 - INFO -  * Debugger PIN: 134-500-141
+2025-03-19 18:01:20,430 - INFO - 127.0.0.1 - - [19/Mar/2025 18:01:20] "[31m[1mGET / HTTP/1.1[0m" 405 -
+2025-03-19 18:01:25,566 - INFO - 127.0.0.1 - - [19/Mar/2025 18:01:25] "[31m[1mGET / HTTP/1.1[0m" 405 -
+2025-03-19 18:02:12,279 - INFO -  * Detected change in 'C:\\Users\\VINIL\\Desktop\\IRRIGATION_TYPE\\flask_app\\routes.py', reloading
+2025-03-19 18:02:13,515 - INFO -  * Restarting with stat

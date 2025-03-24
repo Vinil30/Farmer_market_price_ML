@@ -1,0 +1,21 @@
+2025-03-18 22:24:44,814 - INFO - Dataset loaded successfully.
+2025-03-18 22:24:44,828 - INFO - One-hot encoding applied.
+2025-03-18 22:24:44,830 - INFO - Target variable encoded.
+2025-03-18 22:24:44,837 - INFO - Dataset split into training and testing sets.
+2025-03-18 22:24:44,842 - INFO - Feature scaling applied.
+2025-03-18 22:24:44,843 - INFO - Starting XGBoost training.
+2025-03-18 22:24:47,690 - INFO - XGBoost Accuracy: 0.64
+2025-03-18 22:24:47,692 - INFO - XGBoost confusion matrix computed.
+2025-03-18 22:24:55,910 - INFO - XGBoost model and preprocessing objects saved successfully in the models folder.
+2025-03-18 22:25:16,945 - INFO - Dataset loaded successfully.
+2025-03-18 22:25:16,954 - INFO - One-hot encoding applied.
+2025-03-18 22:25:16,957 - INFO - Target variable encoded.
+2025-03-18 22:25:16,965 - INFO - Dataset split into training and testing sets.
+2025-03-18 22:25:16,977 - INFO - Feature scaling applied.
+2025-03-18 22:25:16,978 - INFO - Starting XGBoost training.
+2025-03-18 22:25:19,537 - INFO - XGBoost Accuracy: 0.64
+2025-03-18 22:25:19,540 - INFO - XGBoost confusion matrix computed.
+2025-03-18 22:25:24,510 - INFO - XGBoost model and preprocessing objects saved successfully in the models folder.
+2025-03-18 22:25:26,201 - INFO - XGBoost model and preprocessing objects saved successfully in the models folder.
+2025-03-18 22:25:27,201 - INFO - XGBoost model and preprocessing objects saved successfully in the models folder.
+2025-03-18 22:25:28,690 - INFO - XGBoost model and preprocessing objects saved successfully in the models folder.

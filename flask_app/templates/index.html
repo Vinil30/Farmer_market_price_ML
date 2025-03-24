@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Price Prediction</title>
+    <style>
+        html, body {
+    overflow-y: auto; /* Enables vertical scrolling */
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: grid;
+            grid-template-rows: auto 1fr;
+           min-height: 200vh;
+            overflow: hidden;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px 20px;
+            z-index: 2;
+        }
+        .logo {
+            font-size: larger;
+            font-weight: bold;
+        }
+        .header-buttons button {
+            background: #45a049;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .container {
+            margin-top: 2vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+            z-index: 1;
+        }
+        form {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            padding: 3vh;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            width: 70vw;
+            margin-top: 10vw;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+            text-align: left;
+        }
+        select, input {
+            width: calc(100% - 2vh);
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            display: block;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 1.5vh;
+            background: #4caf50;
+            color: white;
+            border: none;
+            padding: 1.5vh;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 95%;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        @media (max-width: 480px) {
+            form {
+                width: 90%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <video src="irrigation.mp4" autoplay loop></video>
+    </video>
+    <header>
+        <div class="logo">🌱 AgriPredict</div>
+        <div class="header-buttons">
+            <button onclick="goToDashboard()">Dashboard</button>
+        </div>
+    </header>
+    <div class="container">
+        <form id="predictionForm" action="/predict-market-price" method="post">
+            <h2>Market Price Prediction</h2>
+            <select id="crop" required>
+                <option value="">Select Crop</option>
+                <option value="Maize">Maize</option>
+                <option value="Sugarcane">Sugarcane</option>
+                <option value="Cotton">Cotton</option>
+                <option value="Tobacco">Tobacco</option>
+                <option value="Paddy">Paddy</option>
+                <option value="Barley">Barley</option>
+                <option value="Wheat">Wheat</option>
+                <option value="Millets">Millets</option>
+                <option value="Oil seeds">Oil Seeds</option>
+                <option value="Pulses">Pulses</option>
+                <option value="Ground nuts">Ground Nuts</option>
+            </select> <!-- Close crop select properly -->
+            
+            <label for="region">Region:</label>
+            <select id="region" required>
+                <option value="">Select Region</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="West Bengal">West Bengal</option>
+            </select>
+            
+                
+            <label for="rainfall">Rainfall (mm):</label>
+            <input type="number" id="rainfall" placeholder="Rainfall in mm" required>
+            <label for="temperature">Temperature (°C):</label>
+            <input type="number" id="temperature" placeholder="Temperature in celsius" required>
+            <label for="production">Production (Tonnes):</label>
+            <input type="number" id="production" placeholder="production in Tonnes" required>
+            <label for="msp">MSP:</label>
+            <input type="number" id="msp" placeholder="MSP in rupees" required>
+            <label for="Export_Demand_Tonnes">Export Demand (Tonnes)</label>
+            <input type="number" id="Export_Demand_Tonnes" placeholder="Export Demand Tonnes" required>
+          
+            <label for="Prev_Year_Price">Prev Year Price:</label>
+            <input type="number" id="Prev_Year_Price" placeholder="Temperature in celsius" required>
+            <button type="button" onclick="predictmarketprice()">Predict</button>
+        </form>
+    </div>
+    <script>
+        // Redirect function (optional)
+        function goToDashboard() {
+            window.location.href = "https://your-dashboard-url.com";
+        }
+    
+        // Predict irrigation type by calling the backend API
+        async function predictmarketprice() {
+            // Collect input values from form fields
+            const crop = document.getElementById("crop").value;
+            const region = document.getElementById("region").value;
+            const rainfall = document.getElementById("rainfall").value;
+            const temperature = document.getElementById("temperature").value;
+            const production = document.getElementById("production").value;
+            const msp = document.getElementById("msp").value;
+            const Export_Demand_Tonnes = document.getElementById("Export_Demand_Tonnes").value;
+            const Prev_Year_Price = document.getElementById("Prev_Year_Price").value;
+    
+            // Input validation
+            if (!crop || !region || !rainfall || !temperature || !production || !msp || !Export_Demand_Tonnes || !Prev_Year_Price) {
+                alert("Please fill in all fields.");
+                return;
+            }
+    
+            // Prepare data to send
+            const requestData = { crop, region, rainfall, temperature, production, msp, Export_Demand_Tonnes, Prev_Year_Price };
+    
+            try {
+                const response = await fetch("/predict-market-price", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(requestData)
+                });
+    
+                const result = await response.json();
+    
+                if (result.success) {
+                    displayPrediction(result.prediction);
+                } else {
+                    alert("Prediction failed: " + result.error);
+                }
+            } catch (error) {
+                console.error("Error:", error);
+                alert("Error connecting to the server. Please try again later.");
+            }
+        }
+    
+        // Display the prediction result on the page
+        function displayPrediction(predictedPrice) {
+            const formContainer = document.getElementById("predictionForm");
+    
+            formContainer.innerHTML = `
+                <h2>The predicted Market Price For the upcoming Year is: <span style="color: green,font-size: 40px;">  ${predictedPrice}</span></h2>
+                <button onclick="reloadForm()" style="margin-top: 20px;">Try Again</button>
+            `;
+        }
+    
+    
+        // Reload the form to allow another prediction
+        function reloadForm() {
+            const formContainer = document.getElementById("predictionForm");
+    
+            formContainer.innerHTML = `
+                 <form id="predictionForm" action="/predict-market-price" method="post">
+            <h2>Irrigation Type Prediction</h2>
+            <label for="crop">Crop Type:</label>
+            <select id="crop" required>
+                <option value="">Select Crop</option>
+                <option value="Maize">Maize</option>
+                <option value="Sugarcane">Sugarcane</option>
+                <option value="Cotton">Cotton</option>
+                <option value="Tobacco">Tobacco</option>
+                <option value="Paddy">Paddy</option>
+                <option value="Barley">Barley</option>
+                <option value="Wheat">Wheat</option>
+                <option value="Millets">Millets</option>
+                <option value="Oil seeds">Oil Seeds</option>
+                <option value="Pulses">Pulses</option>
+                <option value="Ground nuts">Ground Nuts</option>
+  </select>
+                <label for="region">Region</label>
+                <select id="region" required>
+                    <option value="">Select Region</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+                
+            <label for="rainfall">Rainfall (mm):</label>
+            <input type="number" id="rainfall" placeholder="Rainfall in mm" required>
+            <label for="temperature">Temperature (°C):</label>
+            <input type="number" id="temperature" placeholder="Temperature in celsius" required>
+            <label for="production">Production (Tonnes):</label>
+            <input type="number" id="production" placeholder="production in Tonnes" required>
+            <label for="msp">MSP:</label>
+            <input type="number" id="msp" placeholder="MSP in rupees" required>
+            <label for="Export_Demand_Tonnes">Export Demand (Tonnes)</label>
+            <input type="number" id="Export_Demand_Tonnes" placeholder="Export Demand Tonnes" required>
+          
+            <label for="Prev_Year_Price">Prev Year Price:</label>
+            <input type="number" id="Prev_Year_Price" placeholder="Temperature in celsius" required>
+             <button type="button" onclick="predictmarketprice()">Predict</button>
+        </form>
+            `;
+        }
+    
+        // Optional: initialize form when page loads
+        document.addEventListener("DOMContentLoaded", reloadForm);
+    </script>
+    
+</body>
+</html>

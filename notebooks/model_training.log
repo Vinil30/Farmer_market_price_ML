@@ -1,0 +1,58 @@
+2025-03-18 18:24:14,695 - INFO - Dataset loaded successfully.
+2025-03-18 18:27:54,053 - INFO - Dataset loaded successfully.
+2025-03-18 18:33:53,465 - INFO - Categorical encoding applied.
+2025-03-18 18:36:01,239 - INFO - Dataset loaded successfully.
+2025-03-18 18:43:09,237 - INFO - Dataset loaded successfully.
+2025-03-18 18:43:09,252 - INFO - One-hot encoding applied.
+2025-03-18 18:43:09,254 - INFO - Target variable encoded.
+2025-03-18 18:43:09,264 - INFO - Dataset split into training and testing sets.
+2025-03-18 18:43:09,272 - INFO - Feature scaling applied.
+2025-03-18 18:43:15,267 - INFO - Random Forest hyperparameter tuning completed.
+2025-03-18 18:43:16,013 - INFO - Random Forest model trained and predictions made.
+2025-03-18 18:43:16,014 - INFO - Optimized Random Forest Accuracy: 0.62
+2025-03-18 18:43:16,016 - INFO - Confusion matrix computed.
+2025-03-18 18:45:26,593 - INFO - Dataset loaded successfully.
+2025-03-18 18:45:26,598 - INFO - One-hot encoding applied.
+2025-03-18 18:45:26,599 - INFO - Target variable encoded.
+2025-03-18 18:45:26,604 - INFO - Dataset split into training and testing sets.
+2025-03-18 18:45:26,609 - INFO - Feature scaling applied.
+2025-03-18 18:45:29,259 - INFO - Random Forest hyperparameter tuning completed.
+2025-03-18 18:45:29,901 - INFO - Random Forest model trained and predictions made.
+2025-03-18 18:45:29,902 - INFO - Optimized Random Forest Accuracy: 0.62
+2025-03-18 18:45:29,904 - INFO - Confusion matrix computed.
+2025-03-18 18:45:29,904 - INFO - Starting Logistic Regression training.
+2025-03-18 18:45:29,953 - INFO - Logistic Regression Accuracy: 0.57
+2025-03-18 18:45:29,954 - INFO - Logistic Regression confusion matrix computed.
+2025-03-18 18:47:05,765 - INFO - Dataset loaded successfully.
+2025-03-18 18:47:05,768 - INFO - One-hot encoding applied.
+2025-03-18 18:47:05,769 - INFO - Target variable encoded.
+2025-03-18 18:47:05,772 - INFO - Dataset split into training and testing sets.
+2025-03-18 18:47:05,776 - INFO - Feature scaling applied.
+2025-03-18 18:47:08,450 - INFO - Random Forest hyperparameter tuning completed.
+2025-03-18 18:47:09,091 - INFO - Random Forest model trained and predictions made.
+2025-03-18 18:47:09,092 - INFO - Optimized Random Forest Accuracy: 0.62
+2025-03-18 18:47:09,093 - INFO - Confusion matrix computed.
+2025-03-18 18:47:09,093 - INFO - Starting XGBoost training.
+2025-03-18 18:47:11,994 - INFO - XGBoost Accuracy: 0.64
+2025-03-18 18:47:11,996 - INFO - XGBoost confusion matrix computed.
+2025-03-18 18:49:18,746 - INFO - Dataset loaded successfully.
+2025-03-18 18:49:18,757 - INFO - One-hot encoding applied.
+2025-03-18 18:49:18,759 - INFO - Target variable encoded.
+2025-03-18 18:49:18,766 - INFO - Dataset split into training and testing sets.
+2025-03-18 18:49:18,777 - INFO - Feature scaling applied.
+2025-03-18 18:49:18,784 - INFO - Naïve Bayes model trained and predictions made.
+2025-03-18 18:49:18,786 - INFO - Naïve Bayes Accuracy: 0.18
+2025-03-18 18:49:18,789 - INFO - Confusion matrix computed for Naïve Bayes.
+2025-03-18 18:49:18,789 - INFO - Starting XGBoost training.
+2025-03-18 18:49:19,650 - INFO - XGBoost Accuracy: 0.64
+2025-03-18 18:49:19,652 - INFO - XGBoost confusion matrix computed.
+2025-03-18 18:50:44,183 - INFO - Dataset loaded successfully.
+2025-03-18 18:50:44,188 - INFO - One-hot encoding applied.
+2025-03-18 18:50:44,188 - INFO - Target variable encoded.
+2025-03-18 18:50:44,192 - INFO - Dataset split into training and testing sets.
+2025-03-18 18:50:44,198 - INFO - Feature scaling applied.
+2025-03-18 18:50:44,200 - INFO - Starting XGBoost training.
+2025-03-18 18:50:45,326 - INFO - XGBoost Accuracy: 0.64
+2025-03-18 18:50:45,329 - INFO - XGBoost confusion matrix computed.
+2025-03-18 18:53:31,305 - INFO - XGBoost model and preprocessing objects saved successfully in the models folder.
+2025-03-18 18:54:06,162 - INFO - XGBoost model and preprocessing objects saved successfully in the models folder.

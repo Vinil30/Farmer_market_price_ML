@@ -1,0 +1,33 @@
+2025-03-20 09:40:12,956 - ERROR - Error while saving models: name 'rf_model' is not defined
+2025-03-20 09:42:18,820 - INFO - Dataset loaded successfully.
+2025-03-20 09:42:18,821 - INFO - Features and target variable separated.
+2025-03-20 09:42:18,821 - INFO - Categorical columns: ['Crop', 'Region']
+2025-03-20 09:42:18,821 - INFO - Numerical columns: ['Year', 'Rainfall_mm', 'Avg_Temperature_C', 'Production_Tonnes', 'MSP', 'Export_Demand_Tonnes', 'Prev_Year_Price']
+2025-03-20 09:42:18,822 - INFO - Data split into training and testing sets.
+2025-03-20 09:42:20,327 - INFO - Random Forest Regression model trained and predictions made.
+2025-03-20 09:42:20,329 - INFO - Random Forest Regression - R2: 0.9251, MAE: 182.9036, MSE: 51062.7422, RMSE: 225.9707
+2025-03-20 09:42:20,336 - INFO - Random Forest Regression - Regression confusion matrix:
+Predicted Bin   0   1   2   3   4
+Actual Bin                       
+0              50   9   0   0   0
+1               1  82  12   0   0
+2               0   8  33  22   0
+3               0   0   9  33  19
+4               0   0   0  11  19
+2025-03-20 09:42:20,348 - INFO - \u2705 Random Forest model and preprocessing objects saved successfully.
+2025-03-20 09:42:45,798 - INFO - Dataset loaded successfully.
+2025-03-20 09:42:45,799 - INFO - Features and target variable separated.
+2025-03-20 09:42:45,799 - INFO - Categorical columns: ['Crop', 'Region']
+2025-03-20 09:42:45,799 - INFO - Numerical columns: ['Year', 'Rainfall_mm', 'Avg_Temperature_C', 'Production_Tonnes', 'MSP', 'Export_Demand_Tonnes', 'Prev_Year_Price']
+2025-03-20 09:42:45,800 - INFO - Data split into training and testing sets.
+2025-03-20 09:42:47,257 - INFO - Random Forest Regression model trained and predictions made.
+2025-03-20 09:42:47,258 - INFO - Random Forest Regression - R2: 0.9251, MAE: 182.9036, MSE: 51062.7422, RMSE: 225.9707
+2025-03-20 09:42:47,262 - INFO - Random Forest Regression - Regression confusion matrix:
+Predicted Bin   0   1   2   3   4
+Actual Bin                       
+0              50   9   0   0   0
+1               1  82  12   0   0
+2               0   8  33  22   0
+3               0   0   9  33  19
+4               0   0   0  11  19
+2025-03-20 09:42:47,276 - INFO - \u2705 Random Forest model and preprocessing objects saved successfully.
