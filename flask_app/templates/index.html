@@ -51,7 +51,7 @@
             z-index: -1;
         }
         .container {
-            margin-top: 2vh;
+            /* margin-top: 2vh; */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -65,7 +65,7 @@
             border-radius: 15px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
             width: 70vw;
-            margin-top: 10vw;
+            /* margin-top: 10vw; */
         }
         label {
             font-weight: bold;
@@ -81,6 +81,9 @@
             border: 1px solid #ccc;
             display: block;
             box-sizing: border-box;
+        }
+        select{
+            color: #626060;
         }
         button {
             margin-top: 1.5vh;
@@ -132,7 +135,7 @@
                 <option value="Ground nuts">Ground Nuts</option>
             </select> <!-- Close crop select properly -->
             
-            <label for="region">Region:</label>
+            <!-- <label for="region">Region:</label> -->
             <select id="region" required>
                 <option value="">Select Region</option>
                 <option value="Andhra Pradesh">Andhra Pradesh</option>
@@ -166,19 +169,19 @@
             </select>
             
                 
-            <label for="rainfall">Rainfall (mm):</label>
+            <!-- <label for="rainfall">Rainfall (mm):</label> -->
             <input type="number" id="rainfall" placeholder="Rainfall in mm" required>
-            <label for="temperature">Temperature (°C):</label>
+            <!-- <label for="temperature">Temperature (°C):</label> -->
             <input type="number" id="temperature" placeholder="Temperature in celsius" required>
-            <label for="production">Production (Tonnes):</label>
+            <!-- <label for="production">Production (Tonnes):</label> -->
             <input type="number" id="production" placeholder="production in Tonnes" required>
-            <label for="msp">MSP:</label>
-            <input type="number" id="msp" placeholder="MSP in rupees" required>
-            <label for="Export_Demand_Tonnes">Export Demand (Tonnes)</label>
+            <!-- <label for="msp">MSP:</label> -->
+            <input type="number" id="msp" placeholder="Minimum Support Price in rupees" required>
+            <!-- <label for="Export_Demand_Tonnes">Export Demand (Tonnes)</label> -->
             <input type="number" id="Export_Demand_Tonnes" placeholder="Export Demand Tonnes" required>
           
-            <label for="Prev_Year_Price">Prev Year Price:</label>
-            <input type="number" id="Prev_Year_Price" placeholder="Temperature in celsius" required>
+            <!-- <label for="Prev_Year_Price">Prev Year Price:</label> -->
+            <input type="number" id="Prev_Year_Price" placeholder="Previous year price in rupees" required>
             <button type="button" onclick="predictmarketprice()">Predict</button>
         </form>
     </div>
@@ -245,9 +248,8 @@
             const formContainer = document.getElementById("predictionForm");
     
             formContainer.innerHTML = `
-                 <form id="predictionForm" action="/predict-market-price" method="post">
-            <h2>Irrigation Type Prediction</h2>
-            <label for="crop">Crop Type:</label>
+                <form id="predictionForm" action="/predict-market-price" method="post">
+            <h2>Market Price Prediction</h2>
             <select id="crop" required>
                 <option value="">Select Crop</option>
                 <option value="Maize">Maize</option>
@@ -261,54 +263,56 @@
                 <option value="Oil seeds">Oil Seeds</option>
                 <option value="Pulses">Pulses</option>
                 <option value="Ground nuts">Ground Nuts</option>
-  </select>
-                <label for="region">Region</label>
-                <select id="region" required>
-                    <option value="">Select Region</option>
-                    <option value="Andhra Pradesh">Andhra Pradesh</option>
-                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                    <option value="Assam">Assam</option>
-                    <option value="Bihar">Bihar</option>
-                    <option value="Chhattisgarh">Chhattisgarh</option>
-                    <option value="Goa">Goa</option>
-                    <option value="Gujarat">Gujarat</option>
-                    <option value="Haryana">Haryana</option>
-                    <option value="Himachal Pradesh">Himachal Pradesh</option>
-                    <option value="Jharkhand">Jharkhand</option>
-                    <option value="Karnataka">Karnataka</option>
-                    <option value="Kerala">Kerala</option>
-                    <option value="Madhya Pradesh">Madhya Pradesh</option>
-                    <option value="Maharashtra">Maharashtra</option>
-                    <option value="Manipur">Manipur</option>
-                    <option value="Meghalaya">Meghalaya</option>
-                    <option value="Mizoram">Mizoram</option>
-                    <option value="Nagaland">Nagaland</option>
-                    <option value="Odisha">Odisha</option>
-                    <option value="Punjab">Punjab</option>
-                    <option value="Rajasthan">Rajasthan</option>
-                    <option value="Sikkim">Sikkim</option>
-                    <option value="Tamil Nadu">Tamil Nadu</option>
-                    <option value="Telangana">Telangana</option>
-                    <option value="Tripura">Tripura</option>
-                    <option value="Uttar Pradesh">Uttar Pradesh</option>
-                    <option value="Uttarakhand">Uttarakhand</option>
-                    <option value="West Bengal">West Bengal</option>
-                </select>
+            </select> <!-- Close crop select properly -->
+            
+           
+            <select id="region" required>
+                <option value="">Select Region</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="West Bengal">West Bengal</option>
+            </select>
+            
                 
-            <label for="rainfall">Rainfall (mm):</label>
+            <!-- <label for="rainfall">Rainfall (mm):</label> -->
             <input type="number" id="rainfall" placeholder="Rainfall in mm" required>
-            <label for="temperature">Temperature (°C):</label>
+            <!-- <label for="temperature">Temperature (°C):</label> -->
             <input type="number" id="temperature" placeholder="Temperature in celsius" required>
-            <label for="production">Production (Tonnes):</label>
+            <!-- <label for="production">Production (Tonnes):</label> -->
             <input type="number" id="production" placeholder="production in Tonnes" required>
-            <label for="msp">MSP:</label>
-            <input type="number" id="msp" placeholder="MSP in rupees" required>
-            <label for="Export_Demand_Tonnes">Export Demand (Tonnes)</label>
+            <!-- <label for="msp">MSP:</label> -->
+            <input type="number" id="msp" placeholder="Minimum Support Price in rupees" required>
+            <!-- <label for="Export_Demand_Tonnes">Export Demand (Tonnes)</label> -->
             <input type="number" id="Export_Demand_Tonnes" placeholder="Export Demand Tonnes" required>
           
-            <label for="Prev_Year_Price">Prev Year Price:</label>
-            <input type="number" id="Prev_Year_Price" placeholder="Temperature in celsius" required>
-             <button type="button" onclick="predictmarketprice()">Predict</button>
+            <!-- <label for="Prev_Year_Price">Prev Year Price:</label> -->
+            <input type="number" id="Prev_Year_Price" placeholder="Previous year price in rupees" required>
+            <button type="button" onclick="predictmarketprice()">Predict</button>
         </form>
             `;
         }
@@ -319,3 +323,5 @@
     
 </body>
 </html>
+
+
